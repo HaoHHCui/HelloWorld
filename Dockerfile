@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM docker.io/openjdk:8-slim
 
 ENV MAVEN_VERSION 3.2.5
 
