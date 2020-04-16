@@ -18,6 +18,6 @@ class HelloControllerTest {
     public void getIndex() {
         String response = restTemplate.getForObject("/", String.class);
         System.out.println(response);
-        Assert.assertEquals("Hello World!", response);
+        Assert.assertEquals("Hello World! Version 2", response);
     }
 }
